@@ -1,3 +1,6 @@
+
+<pre>
+<code>
 import pymysql
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -24,6 +27,7 @@ except Exception as e:
     print(e)
 
 ###크롤링 시작
+
 driver = webdriver.Chrome('./webdriver/chromedriver.exe')
 driver.implicitly_wait(3)
 
@@ -108,6 +112,5 @@ conn.commit()
 cur.close()
 conn.close() 
 
-    
-
-    
+</code>
+</pre>
